@@ -1,3 +1,0 @@
-cat <<EOF > sessionCheckpoints.json
-{"profile-after-change":true,"final-ui-startup":true,"sessionstore-windows-restored":true,"quit-application-granted":true,"quit-application":true,"profile-change-net-teardown":true,"profile-change-teardown":true,"profile-before-change":true}
-EOF
