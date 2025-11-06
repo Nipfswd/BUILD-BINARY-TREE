@@ -1,0 +1,7 @@
+cat <<"EOF" > update-settings.ini
+; If you modify this file updates may fail.
+; Do not modify this file.
+
+[Settings]
+ACCEPTED_MAR_CHANNEL_IDS=torbrowser-torproject-release
+EOF

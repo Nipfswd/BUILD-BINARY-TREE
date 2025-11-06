@@ -1,0 +1,26 @@
+cat <<"EOF" > application.ini
+; This file is not used. If you modify it and want the application to use
+; your modifications, move it under the browser/ subdirectory and start with
+; the "-app /path/to/browser/application.ini" argument.
+[App]
+Vendor=Tor Project
+Name=Firefox
+RemotingName=Tor Browser
+CodeName=Tor Browser
+Version=140.4.0
+BuildID=20251028094500
+SourceRepository=https://gitlab.torproject.org/tpo/applications/tor-browser
+SourceStamp=ab8cd7fd38a8ca03b36144b5259f4ec6609f61b4
+ID={ec8030f7-c20a-464f-9b0e-13a3a9e97384}
+
+[Gecko]
+MinVersion=140.4.0
+MaxVersion=140.4.0
+
+[XRE]
+
+
+[AppUpdate]
+URL=https://aus1.torproject.org/torbrowser/update_3/%CHANNEL%/%BUILD_TARGET%/%VERSION%/ALL
+
+EOF

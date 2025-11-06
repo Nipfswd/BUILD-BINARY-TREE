@@ -1,0 +1,3 @@
+cat <<"EOF" > extension-preferences.json
+{"{73a6fe31-595d-460b-a920-fcc0f8843232}":{"permissions":["internal:privateBrowsingAllowed"],"origins":[],"data_collection":[]},"default-theme@mozilla.org":{"permissions":["internal:privateBrowsingAllowed","internal:svgContextPropertiesAllowed"],"origins":[],"data_collection":[]}}
+EOF
